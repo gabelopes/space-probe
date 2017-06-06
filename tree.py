@@ -22,4 +22,4 @@ class Branch:
         return self.right_branch is not None
 
     def __str__(self):
-        return str(self.context)
+        return str(self.element)

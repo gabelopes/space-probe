@@ -4,8 +4,6 @@ import sys
 import translator
 from space_probe import SpaceProbe
 
-# TODO compound contexts
-
 def print_path(path):
     for x, y in path:
         print(f"Moved to ({x}, {y})")
